@@ -1,4 +1,8 @@
 # C2-Tracker to OpenCTI
+[![Build Status](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue.svg)](https://shields.io/)
+![Maintenance](https://img.shields.io/maintenance/yes/2025.svg?style=flat-square)
+[![GitHub last commit](https://img.shields.io/github/last-commit/cybersheepdog/C2-Tracker-2-OpenCTI.svg?style=flat-square)](https://github.com/cybersheepdog/C2-Tracker-2-OpenCTI/commit/master)
+![GitHub](https://img.shields.io/github/license/cybersheepdog/C2-Tracker-2-OpenCTI)
 
 Ingest data [C2 Tracker Data](https://github.com/montysecurity/C2-Tracker/tree/main/data) into an [OpenCTI](https://github.com/OpenCTI-Platform/opencti) instance.
 
