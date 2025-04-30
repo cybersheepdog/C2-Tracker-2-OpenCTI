@@ -20,13 +20,13 @@ Ingest data [C2 Tracker Data](https://github.com/montysecurity/C2-Tracker/tree/m
 Requires Python 3
 
 1. Create a user with "Connector" & "Default" roles, take note of the Token that is made and put it in an environment variable called `OPENCTI_C2TRACKER_TOKEN`
-2. Download the repo: `git clone https://github.com/cybersheepdog/C2-Tracker-2-OpenCTI.git'
-3. Navigate to connector: `cd C2-Tracker/opencti-connector/`
-4. Review `src/connector.py` variables `api_url` and `api_token`; set environment variable `OPENCTI_URL`
+2. Set environment variable `OPENCTI_URL`
+3. Download the repo: `git clone https://github.com/cybersheepdog/C2-Tracker-2-OpenCTI.git'
+4. Navigate to connector: `cd C2-Tracker-2-OpenCTI/`
 5. Install packages: `pip3 install --upgrade pip && pip3 install requests pycti`
-6. Run `src/connector.py`
-7. Set Cron Job or Service to run `src/connector.py` when OpenCTI starts up
+6. Run `
+7. Set Cron Job or Service to run when OpenCTI starts up
 
 ## Purge Script
 
-There is a script at `/src/purge.py` that is not executed by the main script. It solely exists to allow the operator to easily delete all of the indicators that were made by this connector. It relies on the label `c2-tracker` to identify those.
+There is a script `purge.py` that is not executed by the main script. It solely exists to allow the operator to easily delete all of the indicators that were made by this connector. It relies on the label `c2-tracker` to identify those.
